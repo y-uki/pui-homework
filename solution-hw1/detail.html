@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;
+    0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet">
+</head>
+
+<body>
+    <!--logo + horizontal line-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="../assets/logo/logo-01.svg" alt="logo">
+        </a>
+        <hr>
+    </header>
+
+    <!--clickable navigation-->
+    <nav>
+        <a href="index.html" class="active"> PRODUCTS </a>
+        <br>
+        <a href="cart.html"> CART </a>
+    </nav>
+
+    <main>
+      <h1> Original Cinnamon Roll</h1>
+        <!--product details-->
+      <img src="../assets/products/original-cinnamon-roll.jpg">
+      <p>Cutomize our delicious, hand-making cinnamons to your liking!</p>
+      
+      <!--dropdown select for glazing-->
+      <div class="dropdown">
+        <label for="glazing"> Glazing: </label>
+        <br>
+        <select name="glazing" id="glazing">
+          <option value="original"> Keep Original </option>
+          <option value="sugar"> Sugar Milk </option>
+          <option value="vanilla"> Vanilla Milk </option>
+          <option value="chocolate"> Double Chocolate </option>
+        </select> 
+      </div>
+     
+      <!--dropdown select for pack size-->
+      <div class="dropdown">
+        <label for="size"> Pack Size: </label>
+        <br>
+        <select name="size" id="size">
+            <option value="1"> 1 </option>
+            <option value="3"> 3 </option>
+            <option value="6"> 6 </option>
+            <option value="12"> 12 </option>
+        </select>
+      </div>
+    
+    
+      <!-- cost-->
+      <div class="total">
+        <p> $2.49 </p>
+        <button> Add to Cart</button>
+      </div>
+
+    </main>
+
+</body> 
+</html>

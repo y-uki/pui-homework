@@ -1,0 +1,118 @@
+/** universal css **/
+
+body {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    line-height: 2;
+    font-size: large;
+}
+
+header {
+    text-align: left;
+}
+
+#logo {
+    width: 400px;
+    height: fit-content;
+    line-height: 0;
+    border: 0;
+}
+
+hr {
+    height: 3px;
+    color: black;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+.active {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+}
+
+button {
+    padding: 1%;
+    background-color: yellow;
+    font-weight: bold;
+    margin: 1%;
+}
+
+
+/** product gallary css **/
+
+.product {
+    width: 406px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.productName {
+    text-decoration: underline;
+}
+
+.price {
+    font-weight: 400;
+}
+
+.product:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/** cart css **/
+
+.cartItem img {
+    width: 200px;
+    height: 200px;
+}
+
+.cartItem {
+    margin-bottom: 50px;
+}
+
+.underlineBold {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.checkoutLine {
+    width: 70vw;
+}
+
+/** detail css **/
+
+.dropdown {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}

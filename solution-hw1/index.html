@@ -1,15 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8">
-  <title>Page Title</title>
-  
-  <body>
 
-    <h1>I am the solution to HW1!</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Gallery</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
 
-    <p>
-        And I can link to <a href="./otherpage.html">other pages.</a>
-    </p>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;
+    0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet">
+</head>
 
-  </body>
+<body>
+    <!--logo + horizontal line-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="../assets/logo/logo-01.svg" alt="logo">
+        </a>
+        <hr>
+    </header>
+
+    <!--clickable navigation-->
+    <nav>
+        <a href="index.html" class="active"> PRODUCTS </a>
+        <br>
+        <a href="cart.html"> CART </a>
+    </nav>
+
+    <main>
+        <h1> Our hand-made cinnamon rolls </h1>
+    
+        <!--original cinnamon rolls-->
+        <div class="product">
+            <a href="detail.html">
+                <img src="../assets/products/original-cinnamon-roll.jpg">
+                <span class="productName"> Original Cinnamon Roll </span>
+                <br>
+                <span class="price"> $2.49 </span>
+            </a>
+        </div>
+
+        <!--apple cinnamon rolls-->
+        <div class="product">
+            <a href="detail.html">
+                <img src="../assets/products/apple-cinnamon-roll.jpg">
+                <span class="productName"> Apple Cinnamon Roll </span>
+                <br>
+                <span class="price">$3.49 </span>
+            </a>
+        </div>
+
+        <!--rasin cinnamon rolls-->
+        <div class="product">
+            <a href="detail.html">
+                <img src="../assets/products/raisin-cinnamon-roll.jpg">
+                <span class="productName"> Rasin Cinnamon Roll </span>
+                <br>
+                <span class="price">$2.99 </span>
+            </a>
+        </div>       
+        
+        <!--walnut cinnamon rolls-->
+        <div class="product">
+            <a href="detail.html">
+                <img src="../assets/products/walnut-cinnamon-roll.jpg">
+                <span class="productName"> Walnut Cinnamon Roll </span>
+                <br>
+                <span class="price">$3.49 </span>
+            </a>
+        </div>        
+        
+        <!--double-chocolate cinnamon rolls-->
+        <div class="product">
+            <a href="detail.html">
+                <img src="../assets/products/double-chocolate-cinnamon-roll.jpg">
+                <span class="productName"> Double-Chocolate Cinnamon Roll </span>
+                <br>
+                <span class="price">$3.99 </span>
+            </a>
+        </div>       
+        
+        <!--strawberry cinnamon rolls-->
+        <div class="product">
+            <a href="detail.html">
+                <img src="../assets/products/strawberry-cinnamon-roll.jpg">
+                <span class="productName"> Strawberry Cinnamon Roll </span>
+                <br>
+                <span class="price">$3.99 </span>
+            </a>
+        </div>
+        
+    </main>
+</body>
 </html>

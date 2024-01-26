@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;
+    0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet">
+</head>
+
+<body>
+    <!--logo + horizontal line-->
+    <header>
+      <a href="index.html">
+          <img id="logo" src="../assets/logo/logo-01.svg" alt="logo">
+      </a>
+      <hr>
+    </header>
+
+    <!--clickable navigation-->
+    <nav>
+        <a href="index.html"> PRODUCTS </a>
+        <br>
+        <a href="cart.html" class="active"> CART </a>
+    </nav>
+
+    <main>
+      <h1> Shopping Cart</h1>
+
+      <!--1 original cinnamon roll-->
+      <div class="cartItem">
+        <img src="../assets/products/original-cinnamon-roll.jpg">
+        <p class="underlineBold"> Remove </p>
+        <p> Original Cinnamon Roll </p>
+        <p> Glazing: Keep Original </p>
+        <p> Pack Size: 1 </p>
+        <p> $2.49 </p>
+
+      </div>      
+      
+      <!--6 double-chocolate cinnamon roll-->
+      <div class="cartItem">
+        <img src="../assets/products/original-cinnamon-roll.jpg">
+        <p class="underlineBold"> Remove </p>
+        <p> Double-Chocolate Cinnamon Roll </p>
+        <p> Glazing: Sugar Milk </p>
+        <p> Pack Size: 6 </p>
+        <p> $27.45 </p>
+      </div>
+
+      <hr class="checkoutLine">
+
+      <!--total cost-->
+      <p> $29.94 </p>
+      <button> Checkout</button>
+
+    </main>
+
+</body>
+</html>
