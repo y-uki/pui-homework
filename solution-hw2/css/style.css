@@ -1,0 +1,231 @@
+/** universal css **/
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 2;
+    font-size: large;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 400px;
+    height: fit-content;
+    line-height: 0;
+    border: 0;
+    margin-left: 10px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    gap: 75px;
+    margin-top: 50px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+}
+
+#rightNav {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 25px;
+}
+
+.badge {
+    position: relative;
+    top: -10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius:50%;
+    font-size: small;
+}
+
+.active {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+main {
+    position: relative;
+    top: -70px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: xx-large;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+img {
+    height: 285px;
+    width: 285px;
+    border: 3px solid black;
+}
+
+button {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/** product gallary css **/
+
+.product {
+    width: 291px;
+    padding: 10px;
+    margin-right: 25px;
+    text-align: left;
+    margin-bottom: 25px;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.productName {
+    text-decoration: underline;
+}
+
+.price {
+    font-weight: 400;
+}
+
+.product:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/** cart css **/
+
+.cartItem img {
+    height: 200px;
+    width: 200px;
+}
+
+.cart {
+    position: relative;
+    left: 25%;
+    width: 75%;
+}
+
+.cartItem {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.description {
+    width: 50%;
+}
+
+.underlineBold {
+    text-decoration: underline;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+}
+
+.priceRight {
+    width: 25%;
+    justify-content: end;
+    align-items: center;
+}
+
+.empty {
+    visibility: hidden;
+}
+
+.totalCost {
+    font: 400;
+    display: flex;
+    gap: 300px;
+}
+
+.check  {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+    align-items: end;
+}
+
+.bigButton {
+    width: fit-content;
+    padding: 20px 35px;
+}
+
+/** detail css **/
+
+.dropdown {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.total {
+    margin-top: 75px;
+    font-weight: bold;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.productDetail {
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customize {
+    margin-left: 25px;
+    margin-right: 200px;
+}
+
+p, label {
+    font-size: x-large;
+    line-height: normal;
+}
+
+#first {
+    margin-top: 50px;
+}
+
+select {
+    width: 100%;
+    font-size: x-large;
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
