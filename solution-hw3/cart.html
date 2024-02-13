@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--logo + horizontal line-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="../assets/logo/logo-01.svg" alt="logo">
+        </a>
+        <!--clickable navigation-->
+        <div id="rightNav">
+            <nav>
+                <a href="index.html"> PRODUCTS </a>
+                <a href="cart.html">
+                    <span class="active">
+                      CART 
+                    </span> 
+                    <span class="badge"> 2</span>
+                </a>
+            </nav>
+            <hr>
+            <h1> Shopping Cart</h1>
+        </div>     
+    </header>
+
+    <main id="cartList">
+        <div class="cart">
+          <!--1 original cinnamon roll-->
+          <div class="cartItem">
+            <img src="../assets/products/original-cinnamon-roll.jpg" alt="original-cinnamon-roll">
+            <div class="description">
+              <p> Original Cinnamon Roll </p>
+              <p> Glazing: Keep Original </p>
+              <p> Pack Size: 1 </p>
+            </div>
+            <div class="priceRight">
+              <p> $ 2.49 </p>
+            </div>  
+          </div>
+          <p class="underlineBold"> Remove </p>      
+          
+          <!--6 double-chocolate cinnamon roll-->
+          <div class="cartItem">
+            <img src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="double-chocolate">
+            <div class="description">
+              <p> Double-Chocolate Cinnamon Roll </p>
+              <p> Glazing: Sugar Milk </p>
+              <p> Pack Size: 6 </p>
+            </div>
+            <div class="priceRight">
+              <p> $ 27.45 </p>
+            </div>  
+          </div>
+          <p class="underlineBold"> Remove </p>
+          
+          <hr id="checkoutLine">
+  
+          <!--total cost-->
+          <div class="check">
+            <div class="totalCost">
+              <p> Total </p>
+              <p> $29.94 </p>
+            </div>  
+            <button class="bigButton"> Checkout</button>
+          </div>
+        </div>
+    </main>
+  
+  </body>
+  </html>
