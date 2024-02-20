@@ -1,0 +1,236 @@
+/** universal css **/
+
+* {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 400px;
+    height: fit-content;
+    margin-right: 25px;
+    border: 0;
+}
+
+hr {
+    border: 3px solid black;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+nav {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 75px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#rightNav {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.badge {
+    position: relative;
+    top: -15px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: medium;
+}
+
+.active {
+    background-color: yellow;
+    font-weight: bolder;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 75px;
+    font-size: x-large;
+}
+
+img {
+    height: 285px;
+    width: 285px;
+    border: 3px solid black;
+}
+
+button {
+    background-color: yellow;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+main {
+    margin-top: 75px;
+    line-height: 2;
+    font-size: large;
+}
+
+/** product gallary css **/
+
+.product {
+    width: 291px;
+    padding: 10px;
+    margin-right: 25px;
+    text-align: left;
+    margin-bottom: 25px;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.productName {
+    text-decoration: underline;
+}
+
+.price {
+    font-weight: 400;
+}
+
+.product:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+/** cart css **/
+
+#cartList {
+    position: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 75px;
+}
+
+.cartItem img {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.cart {
+    position: flex;
+    flex-direction: row;
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.underlineBold {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.priceRight {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+#checkoutLine   {
+    margin-bottom: 0;
+}
+
+.totalCost {
+    display: flex;
+    justify-content: end;
+    gap: 350px;
+    margin-bottom: 15px;
+}
+
+.check  {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.bigButton {
+    width: fit-content;
+    padding: 15px 25px;
+}
+
+/** detail css **/
+
+.dropdown {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.total {
+    margin-top: 75px;
+    font-weight: bold;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#productDetail {
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customize {
+    margin-left: 25px;
+    margin-right: 200px;
+}
+
+#first {
+    margin-top: 50px;
+}
+
+select {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
