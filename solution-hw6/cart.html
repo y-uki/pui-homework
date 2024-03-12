@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Javascript-->
+    <script src="javascript/rollsData.js" defer> </script>
+    <script src="javascript/cart.js" defer> </script>
+</head>
+
+<body>
+    <!--logo + horizontal line-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="../assets/logo/logo-01.svg" alt="logo">
+        </a>
+        <!--clickable navigation-->
+        <div id="rightNav">
+            <nav>
+                <a href="index.html"> PRODUCTS </a>
+                <a href="cart.html">
+                    <span class="active">
+                        CART
+                    </span>
+                    <span class="badge"> 0</span>
+                </a>
+            </nav>
+            <hr>
+            <h1> Shopping Cart</h1>
+        </div>
+    </header>
+
+    <!-- Cart Items -->
+    <main id="cartList">
+      <!-- add elements through javascript -->
+    </main>
+    <hr id="checkoutLine"> 
+
+    
+    <!-- Total Price -->
+    <div class="totalCost">
+        <p>Total</p>
+        <p id="totalPrice">$0.00</p>
+    </div>
+
+    <!-- Checkout Button -->
+    <div class="check">
+        <button class="bigButton">Checkout</button>
+    </div>
+
+</body>
+
+</html>

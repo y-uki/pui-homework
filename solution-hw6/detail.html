@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Javascript-->
+    <script src="javascript/rollsData.js" defer></script>
+    <script src="javascript/java.js" defer></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+      <a href="index.html">
+          <img id="logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop">
+      </a>
+      <div id="rightNav">
+          <nav>
+              <a href="index.html" class="active">PRODUCTS</a>
+              <a href="cart.html">
+                  <span>CART</span>
+                  <span class="badge" id="cart-badge">0</span>
+              </a>
+          </nav>
+          <hr>
+          <h1 id="rollName"></h1>
+      </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+      <div class="row">
+          <img id="productDetail" alt="Cinnamon Roll">
+          <div class="customize">
+              <p>Customize our delicious, hand-made cinnamon rolls to your liking!</p>
+              <br>
+              <!-- Glazing Options Dropdown -->
+              <div id="first" class="dropdown">
+                  <label for="glazing">Glazing:</label><br>
+                  <select name="glazing" id="glazing" onchange="changePrice()"></select>
+              </div>
+              <!-- Pack Size Options Dropdown -->
+              <div class="dropdown">
+                  <label for="size">Pack Size:</label><br>
+                  <select name="size" id="size" onchange="changePrice()"></select>
+              </div>
+              <!-- Total Price and Add to Cart Button -->
+              <div class="total">
+                  <p id="addPrice"></p>
+                  <button onclick="addCart()">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+  </main>
+
+</body>
+</html>
